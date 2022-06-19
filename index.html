@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Folder</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>File Upload</h1>
+    <h3>Select Folder</h3>
+    <button id="file2" onclick="document.getElementById('add-file').click(); return false" style="position: absolute; background-color: blue; color: white; border-radius: 5px;">choose folder</button>
+    <input type = "file" id="add-file" webkitdirectory = "true" multiple>
+    <h2>Selected Files</h2>
+    <h2 id="heading">Please Choose a folder</h2>
+    <div id="div1">
+        <div id="file-div"><h2 id="file-name">File Name</h2></div>
+        <div id="size-div"><h2 id="file-s">File Size</h2></div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
